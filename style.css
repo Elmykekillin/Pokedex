@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef9b1daa-9321-4698-8f9f-a7697db20dd6/d5b7ktm-45fb8d47-0371-4aae-a574-4d396ff40097.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9lZjliMWRhYS05MzIxLTQ2OTgtOGY5Zi1hNzY5N2RiMjBkZDYvZDViN2t0bS00NWZiOGQ0Ny0wMzcxLTRhYWUtYTU3NC00ZDM5NmZmNDAwOTcuanBnIn1dXX0.VUgxK2rdmQmWLz_L8qCYRfmcKL6WxlpEAVfLUjlP29Q");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.pokedex_body{
+    display: grid;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 85%;
+    width: 80%;
+    border: 2px solid rgba(201, 0, 0, 0.719);
+}
+

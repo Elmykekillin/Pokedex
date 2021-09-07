@@ -8,12 +8,16 @@ main{
     height: 100%;
     width: 100%;
     padding: 0%;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef9b1daa-9321-4698-8f9f-a7697db20dd6/d5b7ktm-45fb8d47-0371-4aae-a574-4d396ff40097.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9lZjliMWRhYS05MzIxLTQ2OTgtOGY5Zi1hNzY5N2RiMjBkZDYvZDViN2t0bS00NWZiOGQ0Ny0wMzcxLTRhYWUtYTU3NC00ZDM5NmZmNDAwOTcuanBnIn1dXX0.VUgxK2rdmQmWLz_L8qCYRfmcKL6WxlpEAVfLUjlP29Q");
+    background-image:url(./Media/Background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    border-radius:10px ;
+}
 
 .pokedex_body{
     display: grid;
@@ -22,6 +26,96 @@ main{
     left: 10%;
     height: 85%;
     width: 80%;
-    border: 2px solid rgba(201, 0, 0, 0.719);
+    background-image: url(./Media/pokedexSkin.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
 }
 
+.displayPkmn{position: absolute;
+    left: 13.8%;
+    top: 1.9%;
+    height: 68.1%;
+    width: 34.5%;
+    border-radius: 20px;
+    background-color: #A1CAE2;
+    box-shadow: 0px 0px 2px 2px black;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+
+   
+}
+
+.displayInfo{position: absolute;
+    left: 51.7%;
+    top: 1.9%;
+    height: 68.1%;
+    width: 34.5%;
+    border-radius: 20px;
+    background-color: #A1CAE2;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.btnPrev{
+    position: absolute;
+    top: 80%;
+    left: 16%;
+    width: 10%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: #9D9D9D;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.btnPrev:hover{
+    cursor: pointer;
+}
+
+.btnNext{
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    width: 10%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: #9D9D9D;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.btnNext:hover{
+    cursor: pointer;
+}
+
+.btnOff{
+    position: absolute;
+    top: 77%;
+    left: 75%;
+    width: 8%;
+    height: 14%;
+    border-radius: 100%;
+    background-color: #9D9D9D;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.btnOff:hover{
+    cursor: pointer;
+}
+
+.numDisplay{
+    position: absolute;
+    top: 77%;
+    left: 56%;
+    width: 10%;
+    height: 14%;
+    border-radius: 20px;
+    background-color: #79B4B7;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.test{
+    text-align: center;
+    border-image-width: 10%;
+}

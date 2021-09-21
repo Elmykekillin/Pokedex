@@ -1,3 +1,3 @@
 # Pokedex
-Pokedex using pokeApi based in Axios request
+Pokedex using Axios for the request to the PokeApi
 First 150 pokemons 

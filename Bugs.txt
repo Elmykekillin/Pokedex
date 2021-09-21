@@ -1,0 +1,5 @@
+Bugs to be solved:
+
+1.-Pokemon after display dont conserve the hover properties
+2.-search after the first search dont display the suggested Pokemon
+3.-bulbasaur is always in display een if you clean the search form

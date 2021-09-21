@@ -1,194 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pokedex</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Pokedex</title>
     <link rel="stylesheet" href="./Pokemons.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     
 </head>
 <body>
     
 <main>
-
+<!--Pokemon sprites Display-->
 <pokedex_body class="pokedex_body">
-  <display_1 class="displayPkmn">
+  <display_1 class="displayPkmn" id="pkmdis">
   
-     <div class="pokemon sprite0" id="0"></div>
-     <div class="pokemon sprite1" id="1"></div>
-     <div class="pokemon sprite2" id="2"></div>
-     <div class="pokemon sprite3" id="3"></div>
-     <div class="pokemon sprite4" id="4"></div>
-     <div class="pokemon sprite5" id="5"></div>
-     <div class="pokemon sprite6" id="6"></div>
-     <div class="pokemon sprite7" id="7"></div>
-     <div class="pokemon sprite8" id="8"></div>
-     <div class="pokemon sprite9" id="9"></div>
-     <div class="pokemon sprite10" id="10"></div>
-     <div class="pokemon sprite11" id="11"></div>
-     <div class="pokemon sprite12" id="12"></div>
-     <div class="pokemon sprite13" id="13"></div>
-     <div class="pokemon sprite14" id="14"></div>
-     <div class="pokemon sprite15" id="15"></div>
-     <div class="pokemon sprite16" id="16"></div>
-     <div class="pokemon sprite17" id="17"></div>
-     <div class="pokemon sprite18" id="18"></div>
-     <div class="pokemon sprite19" id="19"></div>
-     <div class="pokemon sprite20" id="20"></div>
-     <div class="pokemon sprite21" id="21"></div>
-     <div class="pokemon sprite22" id="22"></div>
-     <div class="pokemon sprite23" id="23"></div>
-     <div class="pokemon sprite24" id="24"></div>
-     <div class="pokemon sprite25" id="25"></div>
-     <div class="pokemon sprite26" id="26"></div>
-     <div class="pokemon sprite27" id="27"></div>
-     <div class="pokemon sprite28" id="28"></div>
-     <div class="pokemon sprite29" id="29"></div>
-     <div class="pokemon sprite30" id="30"></div>
-     <div class="pokemon sprite31" id="31"></div>
-     <div class="pokemon sprite32" id="32"></div>
-     <div class="pokemon sprite33" id="33"></div>
-     <div class="pokemon sprite34" id="34"></div>
-     <div class="pokemon sprite35" id="35"></div>
-     <div class="pokemon sprite36" id="36"></div>
-     <div class="pokemon sprite37" id="37"></div>
-     <div class="pokemon sprite38" id="38"></div>
-     <div class="pokemon sprite39" id="39"></div>
-     <div class="pokemon sprite40" id="40"></div>
-     <div class="pokemon sprite41" id="41"></div>
-     <div class="pokemon sprite42" id="42"></div>
-     <div class="pokemon sprite43" id="43"></div>
-     <div class="pokemon sprite44" id="44"></div>
-     <div class="pokemon sprite45" id="45"></div>
-     <div class="pokemon sprite46" id="46"></div>
-     <div class="pokemon sprite47" id="47"></div>
-     <div class="pokemon sprite48" id="48"></div>
-     <div class="pokemon sprite49" id="49"></div>
-     <div class="pokemon sprite50" id="50"></div>
-     <div class="pokemon sprite51" id="51"></div>
-     <div class="pokemon sprite52" id="52"></div>
-     <div class="pokemon sprite53" id="53"></div>
-     <div class="pokemon sprite54" id="54"></div>
-     <div class="pokemon sprite55" id="55"></div>
-     <div class="pokemon sprite56" id="56"></div>
-     <div class="pokemon sprite57" id="57"></div>
-     <div class="pokemon sprite58" id="58"></div>
-     <div class="pokemon sprite59" id="59"></div>
-     <div class="pokemon sprite60" id="60"></div>
-     <div class="pokemon sprite61" id="61"></div>
-     <div class="pokemon sprite62" id="62"></div>
-     <div class="pokemon sprite63" id="63"></div>
-     <div class="pokemon sprite64" id="64"></div>
-     <div class="pokemon sprite65" id="65"></div>
-     <div class="pokemon sprite66" id="66"></div>
-     <div class="pokemon sprite67" id="67"></div>
-     <div class="pokemon sprite68" id="68"></div>
-     <div class="pokemon sprite69" id="69"></div>
-     <div class="pokemon sprite70" id="70"></div>
-     <div class="pokemon sprite71" id="71"></div>
-     <div class="pokemon sprite72" id="72"></div>
-     <div class="pokemon sprite73" id="73"></div>
-     <div class="pokemon sprite74" id="74"></div>
-     <div class="pokemon sprite75" id="75"></div>
-     <div class="pokemon sprite76" id="76"></div>
-     <div class="pokemon sprite77" id="77"></div>
-     <div class="pokemon sprite78" id="78"></div>
-     <div class="pokemon sprite79" id="79"></div>
-     <div class="pokemon sprite80" id="80"></div>
-     <div class="pokemon sprite81" id="81"></div>
-     <div class="pokemon sprite82" id="82"></div>
-     <div class="pokemon sprite83" id="83"></div>
-     <div class="pokemon sprite84" id="84"></div>
-     <div class="pokemon sprite85" id="85"></div>
-     <div class="pokemon sprite86" id="86"></div>
-     <div class="pokemon sprite87" id="87"></div>
-     <div class="pokemon sprite88" id="88"></div>
-     <div class="pokemon sprite89" id="89"></div>
-     <div class="pokemon sprite90" id="90"></div>
-     <div class="pokemon sprite91" id="91"></div>
-     <div class="pokemon sprite92" id="92"></div>
-     <div class="pokemon sprite93" id="93"></div>
-     <div class="pokemon sprite94" id="94"></div>
-     <div class="pokemon sprite95" id="95"></div>
-     <div class="pokemon sprite96" id="96"></div>
-     <div class="pokemon sprite97" id="97"></div>
-     <div class="pokemon sprite98" id="98"></div>
-     <div class="pokemon sprite99" id="99"></div>
-     <div class="pokemon sprite100" id="100"></div>
-     <div class="pokemon sprite101" id="101"></div>
-     <div class="pokemon sprite102" id="102"></div>
-     <div class="pokemon sprite103" id="103"></div>
-     <div class="pokemon sprite104" id="104"></div>
-     <div class="pokemon sprite105" id="105"></div>
-     <div class="pokemon sprite106" id="106"></div>
-     <div class="pokemon sprite107" id="107"></div>
-     <div class="pokemon sprite108" id="108"></div>
-     <div class="pokemon sprite109" id="109"></div>
-     <div class="pokemon sprite110" id="110"></div>
-     <div class="pokemon sprite111" id="111"></div>
-     <div class="pokemon sprite112" id="112"></div>
-     <div class="pokemon sprite113" id="113"></div>
-     <div class="pokemon sprite114" id="114"></div>
-     <div class="pokemon sprite115" id="115"></div>
-     <div class="pokemon sprite116" id="116"></div>
-     <div class="pokemon sprite117" id="117"></div>
-     <div class="pokemon sprite118" id="118"></div>
-     <div class="pokemon sprite119" id="119"></div>
-     <div class="pokemon sprite120" id="120"></div>
-     <div class="pokemon sprite121" id="121"></div>
-     <div class="pokemon sprite122" id="122"></div>
-     <div class="pokemon sprite123" id="123"></div>
-     <div class="pokemon sprite124" id="124"></div>
-     <div class="pokemon sprite125" id="125"></div>
-     <div class="pokemon sprite126" id="126"></div>
-     <div class="pokemon sprite127" id="127"></div>
-     <div class="pokemon sprite128" id="128"></div>
-     <div class="pokemon sprite129" id="129"></div>
-     <div class="pokemon sprite130" id="130"></div>
-     <div class="pokemon sprite131" id="131"></div>
-     <div class="pokemon sprite132" id="132"></div>
-     <div class="pokemon sprite133" id="133"></div>
-     <div class="pokemon sprite134" id="134"></div>
-     <div class="pokemon sprite135" id="135"></div>
-     <div class="pokemon sprite136" id="136"></div>
-     <div class="pokemon sprite137" id="137"></div>
-     <div class="pokemon sprite138" id="138"></div>
-     <div class="pokemon sprite139" id="139"></div>
-     <div class="pokemon sprite140" id="140"></div>
-     <div class="pokemon sprite141" id="141"></div>
-     <div class="pokemon sprite142" id="142"></div>
-     <div class="pokemon sprite143" id="143"></div>
-     <div class="pokemon sprite144" id="144"></div>
-     <div class="pokemon sprite145" id="145"></div>
-     <div class="pokemon sprite146" id="146"></div>
-     <div class="pokemon sprite147" id="147"></div>
-     <div class="pokemon sprite148" id="148"></div>
-     <div class="pokemon sprite149" id="149"></div>
-     <div class="pokemon sprite150" id="150"></div> 
+     <div class="pokemon sprite0" id="0" onclick="transform(0)">bulbasaur</div>
+     <div class="pokemon sprite1" id="1" onclick="transform(1)">ivysaur</div>
+     <div class="pokemon sprite2" id="2" onclick="transform(2)">venusaur</div>
+     <div class="pokemon sprite3" id="3" onclick="transform(3)">charmander</div>
+     <div class="pokemon sprite4" id="4" onclick="transform(4)">charmeleon</div>
+     <div class="pokemon sprite5" id="5" onclick="transform(5)">charizard</div>
+     <div class="pokemon sprite6" id="6" onclick="transform(6)">squirtle</div>
+     <div class="pokemon sprite7" id="7" onclick="transform(7)">wartortle</div>
+     <div class="pokemon sprite8" id="8" onclick="transform(8)">blastoise</div>
+     <div class="pokemon sprite9" id="9" onclick="transform(9)">caterpie</div>
+     <div class="pokemon sprite10" id="10" onclick="transform(10)">metapod</div>
+     <div class="pokemon sprite11" id="11" onclick="transform(11)">butterfree</div>
+     <div class="pokemon sprite12" id="12" onclick="transform(12)">weedle</div>
+     <div class="pokemon sprite13" id="13" onclick="transform(13)">kakuna</div>
+     <div class="pokemon sprite14" id="14" onclick="transform(14)">beedrill</div>
+     <div class="pokemon sprite15" id="15" onclick="transform(15)">pidgey</div>
+     <div class="pokemon sprite16" id="16" onclick="transform(16)">pidgeotto</div>
+     <div class="pokemon sprite17" id="17" onclick="transform(17)">pidgeot</div>
+     <div class="pokemon sprite18" id="18" onclick="transform(18)">rattata</div>
+     <div class="pokemon sprite19" id="19" onclick="transform(19)">raticate</div>
+     <div class="pokemon sprite20" id="20" onclick="transform(20)">spearow</div>
+     <div class="pokemon sprite21" id="21" onclick="transform(21)">fearow</div>
+     <div class="pokemon sprite22" id="22" onclick="transform(22)">ekans</div>
+     <div class="pokemon sprite23" id="23" onclick="transform(23)">arbok</div>
+     <div class="pokemon sprite24" id="24" onclick="transform(24)">pikachu</div>
+     <div class="pokemon sprite25" id="25" onclick="transform(25)">raichu</div>
+     <div class="pokemon sprite26" id="26" onclick="transform(26)">sandshrew</div>
+     <div class="pokemon sprite27" id="27" onclick="transform(27)">sandslash</div>
+     <div class="pokemon sprite28" id="28" onclick="transform(28)">nidoran-f</div>
+     <div class="pokemon sprite29" id="29" onclick="transform(29)">nidorina</div>
+     <div class="pokemon sprite30" id="30" onclick="transform(30)">nidoqueen</div>
+     <div class="pokemon sprite31" id="31" onclick="transform(31)">nidoran-m</div>
+     <div class="pokemon sprite32" id="32" onclick="transform(32)">nidorino</div>
+     <div class="pokemon sprite33" id="33" onclick="transform(33)">nidoking</div>
+     <div class="pokemon sprite34" id="34" onclick="transform(34)">clefairy</div>
+     <div class="pokemon sprite35" id="35" onclick="transform(35)">clefable</div>
+     <div class="pokemon sprite36" id="36" onclick="transform(36)">vulpix</div>
+     <div class="pokemon sprite37" id="37" onclick="transform(37)">ninetales</div>
+     <div class="pokemon sprite38" id="38" onclick="transform(38)">jigglypuff</div>
+     <div class="pokemon sprite39" id="39" onclick="transform(39)">wigglytuff</div>
+     <div class="pokemon sprite40" id="40" onclick="transform(40)">zubat</div>
+     <div class="pokemon sprite41" id="41" onclick="transform(41)">golbat</div>
+     <div class="pokemon sprite42" id="42" onclick="transform(42)">oddish</div>
+     <div class="pokemon sprite43" id="43" onclick="transform(43)">gloom</div>
+     <div class="pokemon sprite44" id="44" onclick="transform(44)">vileplume</div>
+     <div class="pokemon sprite45" id="45" onclick="transform(45)">paras</div>
+     <div class="pokemon sprite46" id="46" onclick="transform(46)">parasect</div>
+     <div class="pokemon sprite47" id="47" onclick="transform(47)">venonat</div>
+     <div class="pokemon sprite48" id="48" onclick="transform(48)">venomoth</div>
+     <div class="pokemon sprite49" id="49" onclick="transform(49)">diglett</div>
+     <div class="pokemon sprite50" id="50" onclick="transform(50)">dugtrio</div>
+     <div class="pokemon sprite51" id="51" onclick="transform(51)">meowth</div>
+     <div class="pokemon sprite52" id="52" onclick="transform(52)">persian</div>
+     <div class="pokemon sprite53" id="53" onclick="transform(53)">psyduck</div>
+     <div class="pokemon sprite54" id="54" onclick="transform(54)">golduck</div>
+     <div class="pokemon sprite55" id="55" onclick="transform(55)">mankey</div>
+     <div class="pokemon sprite56" id="56" onclick="transform(56)">primeape</div>
+     <div class="pokemon sprite57" id="57" onclick="transform(57)">growlithe</div>
+     <div class="pokemon sprite58" id="58" onclick="transform(58)">arcanine</div>
+     <div class="pokemon sprite59" id="59" onclick="transform(59)">poliwag</div>
+     <div class="pokemon sprite60" id="60" onclick="transform(60)">poliwhirl</div>
+     <div class="pokemon sprite61" id="61" onclick="transform(61)">poliwrath</div>
+     <div class="pokemon sprite62" id="62" onclick="transform(62)">abra</div>
+     <div class="pokemon sprite63" id="63" onclick="transform(63)">kadabra</div>
+     <div class="pokemon sprite64" id="64" onclick="transform(64)">alakazam</div>
+     <div class="pokemon sprite65" id="65" onclick="transform(65)">machop</div>
+     <div class="pokemon sprite66" id="66" onclick="transform(66)">machoke</div>
+     <div class="pokemon sprite67" id="67" onclick="transform(67)">machamp</div>
+     <div class="pokemon sprite68" id="68" onclick="transform(68)">bellsprout</div>
+     <div class="pokemon sprite69" id="69" onclick="transform(69)">weepinbell</div>
+     <div class="pokemon sprite70" id="70" onclick="transform(70)">victreebel</div>
+     <div class="pokemon sprite71" id="71" onclick="transform(71)">tentacool</div>
+     <div class="pokemon sprite72" id="72" onclick="transform(72)">tentacruel</div>
+     <div class="pokemon sprite73" id="73" onclick="transform(73)">geodude</div>
+     <div class="pokemon sprite74" id="74" onclick="transform(74)">graveler</div>
+     <div class="pokemon sprite75" id="75" onclick="transform(75)">golem</div>
+     <div class="pokemon sprite76" id="76" onclick="transform(76)">ponyta</div>
+     <div class="pokemon sprite77" id="77" onclick="transform(77)">rapidash</div>
+     <div class="pokemon sprite78" id="78" onclick="transform(78)">slowpoke</div>
+     <div class="pokemon sprite79" id="79" onclick="transform(79)">slowbro</div>
+     <div class="pokemon sprite80" id="80" onclick="transform(80)">magnemite</div>
+     <div class="pokemon sprite81" id="81" onclick="transform(81)">magneton</div>
+     <div class="pokemon sprite82" id="82" onclick="transform(82)">farfetchd</div>
+     <div class="pokemon sprite83" id="83" onclick="transform(83)">doduo</div>
+     <div class="pokemon sprite84" id="84" onclick="transform(84)">dodrio</div>
+     <div class="pokemon sprite85" id="85" onclick="transform(85)">seel</div>
+     <div class="pokemon sprite86" id="86" onclick="transform(86)">dewgong</div>
+     <div class="pokemon sprite87" id="87" onclick="transform(87)">grimer</div>
+     <div class="pokemon sprite88" id="88" onclick="transform(88)">muk</div>
+     <div class="pokemon sprite89" id="89" onclick="transform(89)">shellder</div>
+     <div class="pokemon sprite90" id="90" onclick="transform(90)">cloyster</div>
+     <div class="pokemon sprite91" id="91" onclick="transform(91)">gastly</div>
+     <div class="pokemon sprite92" id="92" onclick="transform(92)">haunter</div>
+     <div class="pokemon sprite93" id="93" onclick="transform(93)">gengar</div>
+     <div class="pokemon sprite94" id="94" onclick="transform(94)">onix</div>
+     <div class="pokemon sprite95" id="95" onclick="transform(95)">drowzee</div>
+     <div class="pokemon sprite96" id="96" onclick="transform(96)">hypno</div>
+     <div class="pokemon sprite97" id="97" onclick="transform(97)">krabby</div>
+     <div class="pokemon sprite98" id="98" onclick="transform(98)">kingler</div>
+     <div class="pokemon sprite99" id="99" onclick="transform(99)">voltrob</div>
+     <div class="pokemon sprite100" id="100" onclick="transform(100)">electrode</div>
+     <div class="pokemon sprite101" id="101" onclick="transform(101)">exeggcute</div>
+     <div class="pokemon sprite102" id="102" onclick="transform(102)">exeggutor</div>
+     <div class="pokemon sprite103" id="103" onclick="transform(103)">cubone</div>
+     <div class="pokemon sprite104" id="104" onclick="transform(104)">marowak</div>
+     <div class="pokemon sprite105" id="105" onclick="transform(105)">hitmonlee</div>
+     <div class="pokemon sprite106" id="106" onclick="transform(106)">hitmonchan</div>
+     <div class="pokemon sprite107" id="107" onclick="transform(107)">lickitung</div>
+     <div class="pokemon sprite108" id="108" onclick="transform(108)">koffing</div>
+     <div class="pokemon sprite109" id="109" onclick="transform(109)">weezing</div>
+     <div class="pokemon sprite110" id="110" onclick="transform(110)">rhyhorn</div>
+     <div class="pokemon sprite111" id="111" onclick="transform(111)">rhydon</div>
+     <div class="pokemon sprite112" id="112" onclick="transform(112)">chansey</div>
+     <div class="pokemon sprite113" id="113" onclick="transform(113)">tangela</div>
+     <div class="pokemon sprite114" id="114" onclick="transform(114)">kangaskhan</div>
+     <div class="pokemon sprite115" id="115" onclick="transform(115)">horsea</div>
+     <div class="pokemon sprite116" id="116" onclick="transform(116)">seadra</div>
+     <div class="pokemon sprite117" id="117" onclick="transform(117)">goldeen</div>
+     <div class="pokemon sprite118" id="118" onclick="transform(118)">seaking</div>
+     <div class="pokemon sprite119" id="119" onclick="transform(119)">staryu</div>
+     <div class="pokemon sprite120" id="120" onclick="transform(120)">starmie</div>
+     <div class="pokemon sprite121" id="121" onclick="transform(121)">mr-mime</div>
+     <div class="pokemon sprite122" id="122" onclick="transform(122)">scyther</div>
+     <div class="pokemon sprite123" id="123" onclick="transform(123)">jynx</div>
+     <div class="pokemon sprite124" id="124" onclick="transform(124)">electabuzz</div>
+     <div class="pokemon sprite125" id="125" onclick="transform(125)">magmar</div>
+     <div class="pokemon sprite126" id="126" onclick="transform(126)">pinsir</div>
+     <div class="pokemon sprite127" id="127" onclick="transform(127)">tauros</div>
+     <div class="pokemon sprite128" id="128" onclick="transform(128)">magikarp</div>
+     <div class="pokemon sprite129" id="129" onclick="transform(129)">gyarados</div>
+     <div class="pokemon sprite130" id="130" onclick="transform(130)">lapras</div>
+     <div class="pokemon sprite131" id="131" onclick="transform(131)">ditto</div>
+     <div class="pokemon sprite132" id="132" onclick="transform(132)">eevee</div>
+     <div class="pokemon sprite133" id="133" onclick="transform(133)">vaporeon</div>
+     <div class="pokemon sprite134" id="134" onclick="transform(134)">jolteon</div>
+     <div class="pokemon sprite135" id="135" onclick="transform(135)">flareon</div>
+     <div class="pokemon sprite136" id="136" onclick="transform(136)">porygon</div>
+     <div class="pokemon sprite137" id="137" onclick="transform(137)">omanyte</div>
+     <div class="pokemon sprite138" id="138" onclick="transform(138)">omastar</div>
+     <div class="pokemon sprite139" id="139" onclick="transform(139)">kabuto</div>
+     <div class="pokemon sprite140" id="140" onclick="transform(140)">kabutops</div>
+     <div class="pokemon sprite141" id="141" onclick="transform(141)">aerodactyl</div>
+     <div class="pokemon sprite142" id="142" onclick="transform(142)">snorlax</div>
+     <div class="pokemon sprite143" id="143" onclick="transform(143)">articuno</div>
+     <div class="pokemon sprite144" id="144" onclick="transform(144)">zapdos</div>
+     <div class="pokemon sprite145" id="145" onclick="transform(145)">moltres</div>
+     <div class="pokemon sprite146" id="146" onclick="transform(146)">dratini</div>
+     <div class="pokemon sprite147" id="147" onclick="transform(147)">dragonair</div>
+     <div class="pokemon sprite148" id="148" onclick="transform(148)">dragonite</div>
+     <div class="pokemon sprite149" id="149" onclick="transform(149)">mewtwo</div>
+     <div class="pokemon sprite150" id="150" onclick="transform(150)">mew</div> 
+
+     <div class="back" id="back" onclick="backing(0)"></div>
 
   </display_1>
 
-  <display_2 class="displayInfo">
+  <!--Pokemon info Display-->
+  <display_2 class="displayInfo" id="disInf">
+   <!--Pokemon Stats-->
+<info class="info" id="info"> 
+   <info class="name" id="name"></info>
 
+   <info class="InfoStyle" id="type"></info>
+
+<info class="InfoStyle" id="species"></info>
+
+<info class="InfoStyle" id="height"></info>
+
+<info class="InfoStyle" id="weight"></info>
+
+<info class="InfoStyle" id="abilities"></info>
+
+</info>
+<!--Search Bar and Suggestions-->
+<searchbar class="searchwrapper">
+   <input 
+   class="searchBar"
+   type="text"
+   name="searchBar"
+   id="searchBar"
+   placeholder="Search for a Pokemon"
+   >
+   
+   <Suggestions class="suggestions1" id="Suggestions1"></Suggestions class="suggestions">
+   <Suggestions class="suggestions2" id="Suggestions2"></Suggestions class="suggestions">
+   <Suggestions class="suggestions3" id="Suggestions3"></Suggestions class="suggestions">
+      <suggestionPokemon class="suggestionPokemon" id="suggestionPokemon"></suggestionPokemon>
+
+  </searchbar>
+
+<!--Pokedex buttons-->
   </display_2>
     <h1 class="Prev">Prev</h1>
-   <button type="button" class="btnPrev" id="btn1"></button>
+   <button type="button" class="btnPrev" onclick="prev()" id="btnPrev"></button>
     <h1 class="Next">Next</h1>
-   <button type="button" class="btnNext" id="btn2"></button>
+   <button type="button" class="btnNext" onclick="next()" id="btnNext"></button>
     <h1 class="On">On/Off</h1>
-   <button type="button" class="btnOff" id="btn3"></button>
+   <button type="button" class="btnon" id="on" onclick="on()"></button></button>
+   <button class="btnoff" id="off" onclick="off()"></button>
     <h1 class="No">Pokemon No:</h1>
-   <numDsiplay class="numDisplay">
-
-   </numDsiplay>
-
+   <numDsiplay class="numDisplay" id="displayNumber" value=""></numDsiplay>
 </pokedex_body>
 
 
-
 </main>
-
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="./main.js" id="100"></script>
 </body>
 </html>
